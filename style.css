@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Caudex&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 
 :root {
   --clr-background: rgb(247, 244, 244);
   --clr-gray: rgb(119, 114, 114);
-  --font-main: "Caudex", serif;
+  --font-main: "Poppins", sans-serif;
   --clr-dark-gray: #262626;
   --clr-dark-black: #121212;
   --clr-dark-text: rgb(226, 225, 225);
@@ -272,6 +272,7 @@ footer p {
   list-style-type: none;
   margin-right: 10px;
   justify-self: flex-end;
+  display: flex-end;
 }
 
 .to-top a {
@@ -410,7 +411,7 @@ footer p {
     border-color: rgb(255, 255, 255);
   }
   .to-top {
-    display: none;
+    display: flex-end;
   }
 }
 
