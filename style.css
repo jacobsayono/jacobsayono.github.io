@@ -88,10 +88,11 @@ footer h2 {
   margin-bottom: 15px;
   padding-bottom: 2rem;
   margin: 0 auto;
-  max-width: 100%;
+  max-width: 80%;
 }
 .header__container img {
   width: 70%;
+  border-radius: 50%;
 }
 
 .header__text {
