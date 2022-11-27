@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 
 :root {
-  --clr-background: rgb(247, 244, 244);
-  --clr-gray: rgb(119, 114, 114);
+  --clr-background: rgb(255, 255, 255);
+  --clr-gray: rgb(115, 115, 115);
   --font-main: "Poppins", sans-serif;
   --clr-dark-gray: #262626;
   --clr-dark-black: #121212;
-  --clr-dark-text: rgb(226, 225, 225);
+  --clr-dark-text: rgb(225, 225, 225);
 }
 
 * {
@@ -88,7 +88,7 @@ footer h2 {
   margin-bottom: 15px;
   padding-bottom: 2rem;
   margin: 0 auto;
-  max-width: 80%;
+  max-width: 100%;
 }
 .header__container img {
   width: 70%;
