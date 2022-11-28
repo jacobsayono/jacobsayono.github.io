@@ -168,6 +168,7 @@ header {
 }
 
 .card {
+  background-color: white;
   margin: 1.5rem 0;
   max-width: 360px;
   /*   box-shadow: 5px 5px 5px #fbbebe; */
@@ -187,10 +188,12 @@ header {
   font-weight: 700;
   margin-bottom: 0.5rem;
   font-size: 20px;
+  color: black;
 }
 
 .card p {
   font-weight: 200;
+  color: black;
 }
 
 .text-container {
