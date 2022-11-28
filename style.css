@@ -358,9 +358,9 @@ footer p {
 
 /* TABLET SCREEN */
 /* 768px */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
   .header__container {
-    min-width: 600px;
+    min-width: 550px;
   }
 
   header {
