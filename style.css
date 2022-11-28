@@ -1,17 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 
 :root {
-  --clr-background: rgb(255, 255, 255);
-  --clr-gray: rgb(115, 115, 115);
   --font-main: "Poppins", sans-serif;
+  --clr-background: rgb(255, 255, 255);
   --clr-dark-gray: #262626;
   --clr-dark-black: #121212;
-  --clr-dark-text: rgb(225, 225, 225);
+  --clr-dark-text: rgb(255, 255, 255);
 }
 
 * {
   box-sizing: border-box;
-  margin: 0;
   padding: 0;
   scroll-behavior: smooth;
 }
@@ -30,6 +28,18 @@ body {
   margin: 0 auto;
 }
 
+
+
+
+
+
+
+
+
+
+
+/* PHONE SCREEN*
+
 /* -------------------------Header/Navbar */
 header {
   padding-top: 30px;
@@ -45,6 +55,8 @@ header {
   padding-bottom: 60px;
 }
 
+
+/* home/projects/skills/contact box*/
 .navbar__ul {
   display: flex;
   flex-direction: column;
@@ -54,18 +66,18 @@ header {
   max-width: 500px;
 }
 
-.navbar__ul .name {
-  font-size: 23px;
-  font-weight: 600;
-}
 
+/* home/projects/skills/contact text color*/
 .navbar__ul a {
   text-decoration: none;
   color: black;
+  font-size: 20px;
+  font-weight: 400;
 }
 
+/* home/projects/skills/contact list*/
 .navbar__ul li {
-  background: rgba(235, 230, 230, 0.3);
+  background: white;
   width: 50%;
   text-align: center;
   margin-top: 2px;
@@ -74,35 +86,52 @@ header {
   padding-bottom: 5px;
 }
 
-.link,
-.portfolio__header,
-footer h2 {
-  text-transform: uppercase;
-}
 
+
+
+
+
+
+/* about me box*/
 .header__container {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 15px;
   padding-bottom: 2rem;
   margin: 0 auto;
-  max-width: 80%;
+  max-width: 100%;
 }
+/* pic */
 .header__container img {
-  width: 30%;
+  width: 50%;
   border-radius: 50%;
+  filter: grayscale(100%);
 }
 
+/* about me text */
 .header__text {
-  font-weight: 200;
-  width: 100%;
-  margin-top: 20px;
-  line-height: 1.5rem;
+  padding-left: 0rem; /* separation between image and about me text, 0 for phone screen bc img is above text*/
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 1rem;
+  line-height: 2rem;
   text-align: center;
 }
 /* End of Header/Navbar--------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Portfolio section ----------------------- */
 .portfolio,
@@ -110,7 +139,7 @@ footer h2 {
   display: flex;
 }
 .portfolio {
-  background-color: rgb(238, 237, 237);
+  background-color: rgb(255, 255, 255);
   margin-top: 2.5rem;
   padding-top: 3rem;
   flex-direction: column;
@@ -119,9 +148,10 @@ footer h2 {
   margin: 0 auto;
 }
 
+/* projects header */
 .portfolio__header {
   font-size: 2rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 .portfolio__container {
@@ -171,8 +201,8 @@ footer h2 {
   margin-top: 100px;
 }
 
+/* skills header */
 .skills h2 {
-  text-transform: uppercase;
   font-size: 2rem;
 }
 .skills-container {
@@ -185,6 +215,8 @@ footer h2 {
 .skills__item {
   margin-bottom: 1rem;
   cursor: pointer;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .skills__item img:hover {
@@ -218,60 +250,33 @@ footer {
   justify-content: space-between;
 }
 
+
+/* contact header*/
 footer h2 {
   font-size: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 0rem;
 }
 
+/* contact text */
 footer p {
-  font-weight: 200;
-  color: var(--clr-gray);
-}
-
-.footer__text-container1 p {
-  color: var(--clr-gray);
-}
-
-.footer__nav-links {
-  display: none;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .footer__text-container {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   padding-bottom: 2rem;
 }
 
-.footer__text-container1 {
-  padding-bottom: 3rem;
-}
-
-.footer__nav-links li {
-  padding: 5px 10px 10px 10px;
-  text-decoration: none;
-}
-
-.footer__nav-links li a {
-  text-decoration: none;
-  color: black;
-  text-transform: uppercase;
-}
-
-.footer__nav-hr {
-  width: 100%;
-  margin: 0 auto;
-  border-color: rgb(255, 255, 255);
-}
-
-footer p {
-  max-width: 400px;
-  padding-bottom: 1rem;
-  margin: 0 auto;
+.footer__nav h2 {
+  text-transform: none;
+  font-size: 1.5rem;
 }
 
 .to-top {
   list-style-type: none;
-  margin-right: 10px;
+  margin: 0px;
   justify-self: flex-end;
   display: flex-end;
 }
@@ -281,6 +286,26 @@ footer p {
   color: black;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TABLET SCREEN */
+/* 768px */
 @media screen and (min-width: 768px) {
   .header__container {
     min-width: 600px;
@@ -294,8 +319,7 @@ footer p {
     display: flex;
     bottom: 0;
     justify-content: space-between;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 1rem;
   }
 
   .navbar ul {
@@ -308,6 +332,11 @@ footer p {
     background-color: transparent;
   }
 
+
+
+
+
+  /* about me section */
   .header__container {
     display: flex;
     flex-direction: row-reverse;
@@ -320,9 +349,13 @@ footer p {
     max-width: 300px;
   }
 
-  .header__container p {
-    max-width: 350px;
+  .header__text {
     text-align: left;
+    padding-left: 5rem; /* separation between image and about me text*/
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 1rem;
+    line-height: 3.5rem;
   }
 
   /* Portfolio section at 768----------- */
@@ -362,13 +395,12 @@ footer p {
 
   .skills h2 {
     margin-bottom: -10px;
-    text-transform: uppercase;
     font-size: 2rem;
   }
 
   .skills__item {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
   }
 
   /* Footer at 768px ---------------- */
@@ -379,7 +411,7 @@ footer p {
 
   footer p {
     max-width: 400px;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
   }
 
   .phone,
@@ -391,31 +423,36 @@ footer p {
     width: 95%;
   }
 
+  /* jacobsayono bottom of page*/
   .footer__nav h2 {
     text-transform: none;
+    font-size: 1.5rem;
   }
-
-  .footer__nav-links {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    margin-left: auto;
-  }
-
-  .footer__nav-links li {
-    padding: 5px 10px 10px 10px;
-    text-decoration: none;
-  }
-
-  .footer__nav-hr {
-    width: 95%;
-    border-color: rgb(255, 255, 255);
-  }
+  
+  /* back to top */
   .to-top {
     display: flex-end;
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* COMPUTER SCREEN */
 /* min width 1024 ---------------------------------- */
 @media screen and (min-width: 1024px) {
   .navbar,
@@ -451,10 +488,6 @@ footer p {
     max-width: 330px;
   }
 
-  .header__text {
-    max-width: 400px;
-    text-align: center;
-  }
 
   /* Portfolio section------------------------- */
   .portfolio__container {
@@ -477,7 +510,34 @@ footer p {
     font-weight: 200;
   }
   /* End Portfolo------------------------------ */
+
+  .footer__nav h2 {
+    text-transform: none;
+    font-size: 1.5rem;
+  }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Dark mode------------------------------- */
 button[class="darkmode"] {
@@ -485,7 +545,7 @@ button[class="darkmode"] {
   height: 30px;
   cursor: pointer;
   background-color: white;
-  border: 1px solid rgb(43, 43, 43);
+  border: 2px solid transparent;
   border-radius: 50%;
 }
 
@@ -497,6 +557,12 @@ button[class="darkmode"] {
 .darkmode footer {
   background-color: var(--clr-dark-black);
   color: var(--clr-dark-text);
+}
+
+.darkmode .skills__item img {
+  background-color: white;
+  border: 15px solid white;
+  border-radius: 25%;
 }
 
 .darkmode .wrapper {
