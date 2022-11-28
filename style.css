@@ -3,7 +3,7 @@
 :root {
   --font-main: "Poppins", sans-serif;
   --clr-background: rgb(255, 255, 255);
-  --clr-dark-gray: #262626;
+  --clr-dark-gray: gray;
   --clr-dark-black: #121212;
   --clr-dark-text: rgb(255, 255, 255);
 }
@@ -91,7 +91,7 @@ header {
 
 
 
-
+/* hello, my name is jacob. i am a robotics engineer */
 /* about me box*/
 .header__container {
   display: flex;
@@ -108,14 +108,18 @@ header {
   width: 50%;
   border-radius: 50%;
   filter: grayscale(100%);
+  border: 2px solid black;
 }
 
+
+.header__text__container {
+  padding-top: 3rem;
+}
 /* about me text */
 .header__text {
   padding-left: 0rem; /* separation between image and about me text, 0 for phone screen bc img is above text*/
   font-size: 20px;
-  font-weight: 400;
-  margin-top: 1rem;
+  font-weight: 1000;
   line-height: 2rem;
   text-align: center;
 }
@@ -195,6 +199,19 @@ header {
 
 /* End of services------------------------ */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Skills --------------------------------- */
 .skills {
   text-align: center;
@@ -229,6 +246,20 @@ header {
   max-width: 80px;
   margin-bottom: -5px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Footer --------------------------------- */
 
@@ -267,7 +298,22 @@ footer p {
 .footer__text-container {
   width: 100%;
   margin: 0 auto;
+  padding-bottom: 1rem;
+}
+
+.footer__links-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
   padding-bottom: 7rem;
+}
+
+.footer__item {
+  cursor: pointer;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
 }
 
 
@@ -357,7 +403,6 @@ footer p {
     text-align: left;
     padding-left: 5rem; /* separation between image and about me text*/
     font-size: 40px;
-    font-weight: 400;
     margin-top: 1rem;
     line-height: 3.5rem;
   }
