@@ -151,7 +151,7 @@ header {
 /* projects header */
 .portfolio__header {
   font-size: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .portfolio__container {
@@ -204,6 +204,7 @@ header {
 /* skills header */
 .skills h2 {
   font-size: 2rem;
+  margin-bottom: 3rem;
 }
 .skills-container {
   display: flex;
@@ -255,20 +256,22 @@ footer {
 footer h2 {
   font-size: 2rem;
   margin-top: 0rem;
+  margin-bottom: 2rem;
 }
 
 /* contact text */
 footer p {
-  max-width: 400px;
   margin: 0 auto;
 }
 
 .footer__text-container {
   width: 100%;
   margin: 0 auto;
-  padding-bottom: 2rem;
+  padding-bottom: 7rem;
 }
 
+
+/* jacobsayono copyright 2022*/
 .footer__nav h2 {
   text-transform: none;
   font-size: 1.5rem;
@@ -277,6 +280,7 @@ footer p {
 .to-top {
   list-style-type: none;
   margin: 0px;
+  margin-top: 10px;
   justify-self: flex-end;
   display: flex-end;
 }
@@ -394,7 +398,6 @@ footer p {
   }
 
   .skills h2 {
-    margin-bottom: -10px;
     font-size: 2rem;
   }
 
