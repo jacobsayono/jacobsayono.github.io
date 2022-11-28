@@ -168,7 +168,6 @@ header {
 }
 
 .card {
-  background-color: white;
   margin: 1.5rem 0;
   max-width: 360px;
   /*   box-shadow: 5px 5px 5px #fbbebe; */
@@ -182,18 +181,17 @@ header {
   width: 50%;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  background-color: white;
 }
 
 .card h2 {
   font-weight: 700;
   margin-bottom: 0.5rem;
   font-size: 20px;
-  color: black;
 }
 
 .card p {
   font-weight: 200;
-  color: black;
 }
 
 .text-container {
@@ -593,12 +591,9 @@ footer p {
 
 /* Dark mode------------------------------- */
 button[class="darkmode"] {
-  width: 30px;
-  height: 30px;
   cursor: pointer;
   background-color: white;
-  border: 2px solid transparent;
-  border-radius: 50%;
+  border: transparent;
 }
 
 .darkmode .portfolio {
@@ -615,6 +610,26 @@ button[class="darkmode"] {
   background-color: white;
   border: 15px solid white;
   border-radius: 25%;
+}
+
+.darkmode .footer__item img {
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.darkmode .card img {
+  background-color: white;
+  border: 1rem solid white;
+  border-radius: 5%;
+}
+
+.darkmode .card p {
+  color: white;
+}
+
+.darkmode .card h2 {
+  color: white;
 }
 
 .darkmode .wrapper {
