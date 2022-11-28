@@ -28,6 +28,10 @@ body {
   margin: 0 auto;
 }
 
+a:link {
+  text-decoration: none;
+  color: black;
+}
 
 
 
@@ -476,11 +480,11 @@ footer p {
   }
 
   .footer__nav h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .to-top {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 
