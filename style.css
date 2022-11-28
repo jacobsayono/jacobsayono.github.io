@@ -279,7 +279,7 @@ footer {
   display: flex;
   min-height: 30px;
   padding: 10px;
-  bottom: 0;
+  margin-bottom: 0px;
   text-align: center;
   justify-content: space-between;
 }
@@ -322,15 +322,13 @@ footer p {
 /* jacobsayono copyright 2022*/
 .footer__nav h2 {
   text-transform: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
+  margin-bottom: 0px;
 }
 
 .to-top {
-  list-style-type: none;
-  margin: 0px;
-  margin-top: 10px;
-  justify-self: flex-end;
-  display: flex-end;
+  margin-right: 0px;
+  margin-bottom: 0px;
 }
 
 .to-top a {
@@ -358,9 +356,9 @@ footer p {
 
 /* TABLET SCREEN */
 /* 768px */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
   .header__container {
-    min-width: 550px;
+    min-width: 600px;
   }
 
   header {
@@ -453,6 +451,9 @@ footer p {
     margin-right: 40px;
   }
 
+
+
+  
   /* Footer at 768px ---------------- */
   footer {
     display: flex;
@@ -461,31 +462,27 @@ footer p {
 
   footer p {
     max-width: 400px;
-    padding-bottom: 1rem;
+    margin-bottom: 0;
   }
 
   .phone,
   .email {
     margin-right: 8px;
+    text-decoration: none;
   }
 
   .footer__nav {
     width: 95%;
   }
 
-  /* jacobsayono bottom of page*/
   .footer__nav h2 {
-    text-transform: none;
     font-size: 1.5rem;
   }
-  
-  /* back to top */
+
   .to-top {
-    display: flex-end;
+    font-size: 1.5rem;
   }
 }
-
-
 
 
 
@@ -559,13 +556,8 @@ footer p {
   .card p {
     font-weight: 200;
   }
-  /* End Portfolo------------------------------ */
-
-  .footer__nav h2 {
-    text-transform: none;
-    font-size: 1.5rem;
-  }
 }
+  /* End Portfolo------------------------------ */
 
 
 
