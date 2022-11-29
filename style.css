@@ -190,14 +190,14 @@ header {
   /*   box-shadow: 5px 5px 5px #fbbebe; */
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 5px 0px,
     rgba(0, 0, 0, 0.5) 0px 2px 15px 0px;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .card img {
-  max-width: 75%;
+  max-width: 100%;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  background-color: white;
+  background-color: black;
 }
 
 .card h2 {
@@ -422,8 +422,8 @@ footer p {
 
   /* about me section */
   .header__container {
-    padding-top: 12rem;
-    padding-bottom: 18rem;
+    padding-top: 14rem;
+    padding-bottom: 20rem;
     display: flex;
     flex-direction: row-reverse;
     margin-bottom: 15px;
@@ -457,7 +457,6 @@ footer p {
   }
 
   .card img {
-    max-width: 50%;
     margin-bottom: 1rem;
   }
 
@@ -570,8 +569,8 @@ footer p {
   }
 
   .header__container {
-    padding-top: 12rem;
-    padding-bottom: 18rem;
+    padding-top: 16rem;
+    padding-bottom: 22rem;
     flex-direction: row-reverse;
     margin-bottom: 15px;
     align-items: center;
@@ -599,7 +598,6 @@ footer p {
   }
 
   .card img {
-    max-width: 50%;
     margin-bottom: 1rem;
   }
 
@@ -670,11 +668,13 @@ button[class="darkmode"] {
   border-radius: 50%;
 }
 
+/*
 .darkmode .card img {
   background-color: white;
   border: 1rem solid white;
   border-radius: 5%;
 }
+*/
 
 .darkmode .card p {
   color: white;
@@ -696,4 +696,97 @@ button[class="darkmode"] {
 
 .darkmode a[href] {
   color: var(--clr-dark-text);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------- PROJECTS GALLERY SCROLLING --------------------------*/
+
+.gallery-container {
+  position: relative;
+  margin-top: 1rem;
+}
+
+.gallery-container img {
+  object-fit: contain; /* fill, cover, contain, none, scale-down */
+  min-height: 300px;
+  max-height: 300px;
+  border-radius: 1%;
+}
+
+@media screen and (min-width: 768px) {
+  .gallery-container img {
+    min-height: 500px;
+    max-height: 500px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .gallery-container img {
+    min-height: 600px;
+    max-height: 600px;
+  }
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.gallery-container .prev,
+.next {
+  left: 0;
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 1rem;
+  margin-top: 0rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: black;
+  font-weight: bold;
+  font-size: 40px;
+  border-radius: 0px 20px 20px 0px;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  left: auto;
+  right: 0;
+  border-radius: 20px 0px 0px 20px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  background-color: rgb(200, 200, 200, 0.5);
+  border-radius: 5%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 2rem;
+  margin-right: 1rem;
 }
