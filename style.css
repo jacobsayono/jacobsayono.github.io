@@ -12,6 +12,7 @@
   box-sizing: border-box;
   padding: 0;
   scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -319,6 +320,7 @@ footer p {
 }
 
 .footer__links-container {
+  padding-top: 1rem;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -644,6 +646,16 @@ button[class="darkmode"] {
 .darkmode footer {
   background-color: var(--clr-dark-black);
   color: var(--clr-dark-text);
+}
+
+.darkmode .header__container img {
+  box-shadow: rgba(255, 255, 255, 1) 0px 2px 15px 0px,
+  rgba(255, 255, 255, 0.4) 0px 2px 5px 0px;
+}
+
+.darkmode .card {
+  box-shadow: rgba(255, 255, 255, 0.5) 0px 2px 15px 0px,
+  rgba(255, 255, 255, 0.4) 0px 2px 5px 0px;
 }
 
 .darkmode .skills__item img {
