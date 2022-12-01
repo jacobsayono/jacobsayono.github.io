@@ -422,8 +422,8 @@ footer p {
 
   /* about me section */
   .header__container {
-    padding-top: 14rem;
-    padding-bottom: 20rem;
+    padding-top: 10rem;
+    padding-bottom: 16rem;
     display: flex;
     flex-direction: row-reverse;
     margin-bottom: 15px;
@@ -569,8 +569,8 @@ footer p {
   }
 
   .header__container {
-    padding-top: 16rem;
-    padding-bottom: 22rem;
+    padding-top: 12rem;
+    padding-bottom: 18rem;
     flex-direction: row-reverse;
     margin-bottom: 15px;
     align-items: center;
