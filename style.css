@@ -79,6 +79,7 @@ header {
   list-style-type: none;
   width: 100%;
   max-width: 500px;
+  margin-top: -0.5rem;
 }
 
 
@@ -561,7 +562,7 @@ footer p {
   }
 
   .navbar__ul li {
-    background-color: transparent;
+    padding: 40px 15px 15px 0px;
   }
 
   .navbar__ul .link {
