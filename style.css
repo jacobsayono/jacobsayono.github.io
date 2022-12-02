@@ -209,6 +209,12 @@ header {
 
 .card p {
   font-weight: 200;
+  text-align: center;
+}
+
+.card ul {
+  font-weight: 200;
+  text-align: left;
 }
 
 .text-container {
@@ -721,7 +727,7 @@ button[class="darkmode"] {
 }
 
 .gallery-container img {
-  object-fit: contain; /* fill, cover, contain, none, scale-down */
+  object-fit: fill; /* fill, cover, contain, none, scale-down */
   min-height: 300px;
   max-height: 300px;
   border-radius: 1%;
@@ -780,7 +786,7 @@ button[class="darkmode"] {
 /* Number text (1/3 etc) */
 .numbertext {
   color: black;
-  background-color: rgb(200, 200, 200, 0.5);
+  background-color: rgb(200, 200, 200, 0.7);
   border-radius: 5%;
   padding-left: 1rem;
   padding-right: 1rem;
