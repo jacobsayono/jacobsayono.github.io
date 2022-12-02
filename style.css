@@ -736,8 +736,8 @@ button[class="darkmode"] {
 
 @media screen and (min-width: 1024px) {
   .gallery-container img {
-    min-height: 600px;
-    max-height: 600px;
+    min-height: 643.5px;
+    max-height: 643.5px;
   }
 }
 
@@ -790,4 +790,10 @@ button[class="darkmode"] {
   right: 0;
   margin-bottom: 2rem;
   margin-right: 1rem;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
