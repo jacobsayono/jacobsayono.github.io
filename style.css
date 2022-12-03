@@ -216,12 +216,12 @@ header {
 .card p {
   font-weight: 200;
   margin-top: -1rem;
-  text-align: left;
+  text-align: justify;
 }
 
 .card ul {
   font-weight: 200;
-  text-align: left;
+  text-align: justify;
 }
 
 .text-container {
