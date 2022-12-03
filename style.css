@@ -795,16 +795,16 @@ button[class="darkmode"] {
 /* Number text (1/3 etc) */
 .numbertext {
   color: black;
-  background-color: rgb(200, 200, 200, 0.7);
+  background-color: rgb(200, 200, 200, 0.95);
   border-radius: 5%;
   padding-left: 1rem;
   padding-right: 1rem;
   font-size: 20px;
   position: absolute;
   bottom: 0;
-  right: 0;
+  left: 0;
   margin-bottom: 1.5rem;
-  margin-right: 0.5rem;
+  margin-left: 0.5rem;
 }
 
 @media screen and (max-width: 1024px) {
