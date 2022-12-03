@@ -598,10 +598,11 @@ footer p {
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
+    max-width: 1165px;
   }
 
   .card {
-    max-width: 90px;
+    max-width: 100%;
   }
 
   .card img {
@@ -794,12 +795,24 @@ button[class="darkmode"] {
   position: absolute;
   bottom: 0;
   right: 0;
-  margin-bottom: 2rem;
-  margin-right: 1rem;
+  margin-bottom: 1.5rem;
+  margin-right: 0.5rem;
 }
+
+@media screen and (max-width: 768px) {
+  .numbertext{
+    font-size: 10px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+
 
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
+
+.w3-badge {height:17.5px;width:1px;padding:0}

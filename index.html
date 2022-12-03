@@ -5,6 +5,7 @@
   <title>jacobsayono - Portfolio</title>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
@@ -66,8 +67,8 @@
 
       <article class='card'>
         <!-- Container for the image gallery -->
+        <div class="w3-content w3-display-container">
         <div class="gallery-container">
-
 
 
 
@@ -100,14 +101,19 @@
             <div class="numbertext">Transparent Masking</div>
               <img src="https://jacobsayono.github.io/assets/bruinbot/img3.png" style="width:100%">
           </div>
-
+          <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white active w3-white" onclick="currentDiv(1)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
+          </div>
           <!-- Next and previous buttons -->
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          <a class="prev" onclick="plusDivs(-1)">&#10094;</a>
+          <a class="next" onclick="plusDivs(1)">&#10095;</a>
 
 
-
-
+        </div>
         </div>
         <div class="text-container">
           <h2>BruinBot (Autonomous Rover) &ensp;|&ensp; Product Manager & Autonomy Lead</h2>
@@ -122,7 +128,7 @@
             We optimize steering trajectories using Model Predictive Control to drive smoothly along the sidewalk given our robot position, velocity, and orientation.
             </li><br>
             <li>
-            We implement A* algorithm using BruinBot’s GPS system and coordinate waypoints to find the most optimal path to get from its current location to its final destination.
+            We implement A* algorithm using BruinBot's GPS system and coordinate waypoints to find the most optimal path to get from its current location to its final destination.
             </li><br>
             <li>
             We develop an open-source system architecture using ROS to envelop all our sensors and actuators to create a historic end-to-end product for UCLA.
@@ -130,7 +136,7 @@
           </ul>
 
 
-          <h2>Skills I've Learned (and Continue to Polish)</h2>
+          <h2>Skills I Learned (and Continue to Polish)</h2>
           <p>Deep Learning &ensp;|&ensp; PyTorch &ensp;|&ensp; Product Development<br><br></p>
 
 
@@ -258,9 +264,9 @@
 
         <div class="footer__text-container" id='contact'>
           <h2><u>Contact</u></h2>
-          <p><span class='phone'>Phone</span> <strong>+1(949)449-4772</strong></p>
-          <p><span class='email'>Email</span> <strong>jrsayono@gmail.com</strong></p>
-          <p><span class='email'>City</span> <strong>Los Angeles</strong></p>
+          <p><span class='email'>Email</span> <strong>jrsayono@gmail.com</strong></p><br>
+          <p><span class='phone'>Phone</span> <strong>+1(949)449-4772</strong></p><br>
+          <p><span class='email'>City</span> <strong>Los Angeles</strong></p><br>
         </div>
         <article class="footer__links-container">
           <div class="footer__item" id='contact'>
