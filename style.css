@@ -26,7 +26,7 @@ body {
 }
 
 .wrapper h2 {
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .container {
@@ -252,12 +252,12 @@ header {
 
 /* skills header */
 .skills h2 {
-  font-size: 2rem;
+  font-size: 50rem;
   margin-bottom: 3rem;
 }
 .skills-container {
   display: flex;
-  margin-top: 30px;
+  margin-top: 10px;
   flex-direction: column;
   text-align: center;
 }
@@ -444,6 +444,7 @@ footer p {
     margin-bottom: 15px;
     align-items: center;
     justify-content: center;
+    max-width: 85%;
   }
 
   .header__container img {
@@ -489,6 +490,7 @@ footer p {
     flex-grow: 1;
     width: 100%;
     margin-bottom: 80px;
+    margin-top: 30px;
   }
 
   .skills h2 {
