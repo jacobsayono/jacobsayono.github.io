@@ -832,8 +832,13 @@ button[class="darkmode"] {
   clear: both;
 }
 
+
+/* navigation bubbles at bottom of images gallery*/
 .w3-badge {height:15px;width:15px;padding:0}
 
+
+
+/* Show more */
 #more {display: none;}
 
 button {
