@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8" name="viewport" content= "width=device-width, initial-scale=1.0">
   <title>jacobsayono - Portfolio</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
   <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
@@ -28,7 +28,7 @@
 
       
       <nav class="navbar">
-        <h2 class='link'><a href="https://jacobsayono.github.io">jacobsayono</a></h2>
+        <h2 class='link'><a href="https://jacobsayono.github.io"><b>jacobsayono</b></a></h2>
         <ul class="navbar__ul">
           <li class='link'><a href="#home">Home</a></li>
           <li class='link'><a href="#portfolio">Projects</a></li>
@@ -62,7 +62,7 @@
 
 
   <main class="portfolio" id='portfolio'>
-    <h2 class='portfolio__header'><u>Projects</u></h2>
+    <h2 class='portfolio__header'><b><u>PROJECTS</u></b></h2>
     <div class="portfolio__container">
 
       <article class='card'>
@@ -74,7 +74,7 @@
 
 
 
-
+          <h2 style="margin-bottom: -5px;">BruinBot (Autonomous Rover)</h2>
 
           <!-- Full-width images with number text -->
           <div class="mySlides">
@@ -116,7 +116,7 @@
         </div>
         </div>
         <div class="text-container">
-          <h2>BruinBot (Autonomous Rover) &ensp;|&ensp; Product Manager & Autonomy Lead</h2>
+          <h2>Product Manager &ensp;&&ensp; Autonomy Lead</h2><hr>
           <ul>
             <li>
             BruinBot uses DeepLabV3 with PyTorch trained on CityScapes dataset to understand UCLA’s accessibility routes for autonomous navigation.
@@ -136,27 +136,35 @@
           </ul>
 
 
-          <h2>Skills I Learned (and Continue to Polish)</h2>
-          <p>Deep Learning &ensp;|&ensp; PyTorch &ensp;|&ensp; Product Development<br><br></p>
+          <h2>Skills</h2><hr>
+          <p style="margin-top: 1.5rem; text-align: center;">
+          Deep Learning &ensp;|&ensp; PyTorch &ensp;|&ensp; Product Development<br><br>
+          </p>
 
 
-          <h2>Why This Project?</h2>
-          <p>I wish to create an autonomous product for my university before I graduate. This has been a goal deep in my heart for a long time. I give my skills and talent to improve my community.
-            <br><br>
+          <h2>Why This Project?</h2><hr>
+          <span id="dots">. . .</span><br>
+          <span id="more">
+            <p>
+            &emsp;&emsp;
+            I want to create an autonomous product for my university before I graduate. This has been a long-term goal in my heart for a while. This is a non-profit project.
+
             In this project, I developed 4 teams: Mechanical, Electrical, Software, and Autonomy.
             <br><br>
-            I have given each teams their own quarterly goals and iteration phases so that we can all progress weekly together as a whole.
+            &emsp;&emsp;I give each team their own quarterly goals and iteration phases so that we can all progress weekly together as a solid unit.
+            
+            I took the challenge to lead my Autonmy team simply because I was unable to find another undergraduate at my university with robotics autonomy experience.
             <br><br>
-            I took on the challenge to lead my Autonmy team simply because I was unable to find another undergraduate at my university with robotics autonomy experience.
-            <br><br>
+            &emsp;&emsp;
             I inspire my team to not give up and I oversee the other teams as a Product Manager to tie a multi-diciplinary project together. I cannot have done this without my amazing team.
-            <br><br>
+            
             From your mobile app to your robot, this end-to-end product is made for UCLA, by UCLA.
             <br><br>
-          </p>
-        </div>
+            </p>
+          </span>
+        <button onclick="myFunction()" id="myBtn">Show more</button><br><br>
       </article>
-
+    <!--
       <article class='card'>
         <img src='https://cdn-icons-png.flaticon.com/512/1659/1659067.png' alt="page">
         <div class="text-container" data-aos='fade-up'>
@@ -164,38 +172,8 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
       </article>
-
-      <article class='card'>
-        <img src='https://cdn-icons-png.flaticon.com/512/1659/1659067.png' alt="page">
-        <div class="text-container">
-          <h2>Data Collection</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-      </article>
-
-      <article class='card'>
-        <img src='https://cdn-icons-png.flaticon.com/512/1659/1659067.png' alt="app">
-        <div class="text-container">
-          <h2>Search App</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-      </article>
-
-      <article class='card'>
-        <img src='https://cdn-icons-png.flaticon.com/512/1659/1659067.png' alt="app">
-        <div class="text-container">
-          <h2>Favorite Spots</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-      </article>
-
-      <article class='card'>
-        <img src='https://cdn-icons-png.flaticon.com/512/1659/1659067.png' alt="gallery">
-        <div class="text-container">
-          <h2>Project Gallery</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-      </article>
+    -->
+      
     </div>
 
 
@@ -215,7 +193,7 @@
 
 
     <section class='skills' id='skills'>
-      <h2><u>Skills</u></h2>
+      <h2><b><u>SKILLS</u></b></h2>
       <article class="skills-container">
         <div class="skills__item" data-aos='fade-up'>
           <img src="https://cdn-icons-png.flaticon.com/512/1822/1822920.png" alt="Python">
@@ -263,7 +241,7 @@
       <div class="wrapper">
 
         <div class="footer__text-container" id='contact'>
-          <h2><u>Contact</u></h2>
+          <h2><b><u>CONTACT</u></b></h2>
           <p><span class='email'>Email</span> <strong>jrsayono@gmail.com</strong></p><br>
           <p><span class='phone'>Phone</span> <strong>+1(949)449-4772</strong></p><br>
           <p><span class='email'>City</span> <strong>Los Angeles</strong></p><br>
@@ -282,7 +260,7 @@
       </div>
 
       <nav class="footer__nav">
-        <h2>jacobsayono Ⓒ 2022</h2>
+        <h2><b>jacobsayono Ⓒ 2022</b></h2>
         <p class='to-top'><a href="#home"><strong>BACK TO TOP</strong></a></p>
       </nav>
     </footer>
