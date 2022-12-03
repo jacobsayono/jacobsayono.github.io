@@ -715,6 +715,10 @@ button[class="darkmode"] {
   color: var(--clr-dark-text);
 }
 
+.darkmode button {
+  color: white;
+}
+
 
 
 
@@ -848,6 +852,7 @@ button {
   padding-right: 1rem;
   border: 1px solid black;
   border-radius: 5%;
+  color: black;
 }
 
 button:hover {
@@ -855,8 +860,9 @@ button:hover {
 }
 
 .darkmode button {
-  color: white;
+  color: black;
   border-color: white;
+  background-color: white;
 }
 
 .dots {
