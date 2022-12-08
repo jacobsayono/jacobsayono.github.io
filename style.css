@@ -177,6 +177,7 @@ header {
 .portfolio__header {
   font-size: 2rem;
   margin-bottom: 2rem;
+  margin-top: 10rem;
 }
 
 .portfolio__container {
@@ -195,9 +196,11 @@ header {
   margin-bottom: 5rem;
   min-width: 100%;
   /*   box-shadow: 5px 5px 5px #fbbebe; */
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 5px 0px,
-    rgba(0, 0, 0, 0.5) 0px 2px 15px 0px;
+  box-shadow: rgba(200, 200, 200, 0.4) 0px 2px 5px 0px,
+    rgba(200, 200, 200, 0.5) 0px 2px 15px 0px;
   padding: 1.5rem;
+  border: 2px solid rgb(200, 200, 200, 0.5);
+  border-radius: 0.5%;
 }
 
 .card img {
@@ -680,8 +683,8 @@ button[class="darkmode"] {
 }
 
 .darkmode .card {
-  box-shadow: rgba(255, 255, 255, 0.5) 0px 2px 15px 0px,
-  rgba(255, 255, 255, 0.4) 0px 2px 5px 0px;
+  box-shadow: rgba(200, 200, 200, 0.4) 0px 2px 5px 0px,
+    rgba(200, 200, 200, 0.5) 0px 2px 15px 0px;
 }
 
 .darkmode .skills__item img {
