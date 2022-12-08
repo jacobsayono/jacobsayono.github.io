@@ -66,6 +66,8 @@
 <!-- PROJECTS SECTION-->
 
   <main class="portfolio" id='portfolio'>
+
+
     <h2 class='portfolio__header'><b><u>PROJECTS</u></b></h2>
     <div class="portfolio__container">
 
@@ -174,6 +176,167 @@
             </p>
           </span>
         <button onclick="myFunction()" id="myBtn" style="text-decoration: none;">Show more</button><br><br>
+        </div>
+      </article>
+    <!--
+      <article class='card'>
+        <img src='https://cdn-icons-png.flaticon.com/512/1659/1659067.png' alt="page">
+        <div class="text-container" data-aos='fade-up'>
+          <h2>Connection Page</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </article>
+    -->
+      
+    </div>
+
+
+
+
+<!-- EDUCATION SECTION TODO-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h2 class='portfolio__header'><b><u>PROJECTS</u></b></h2>
+    <div class="portfolio__container">
+
+      <article class='card'>
+        <!-- Container for the image gallery -->
+        <div class="w3-content w3-display-container">
+        <div class="gallery-container">
+
+
+
+
+
+          <h2 style="margin-bottom: -5px; font-size: 30px">BruinBot</h2><br>
+          <p style="margin-bottom: 5px; text-align: center; font-size: 25px">Autonomous Rover</p>
+
+          <!-- Full-width images with number text -->
+          <div class="mySlides1">
+            <div class="numbertext">Semantic Segmentation</div>
+              <img src="https://jacobsayono.github.io/assets/bruinbot/img5.png" style="width:100%">
+          </div>
+
+          <div class="mySlides1">
+            <div class="numbertext">Early Attempts</div>
+              <img src="https://jacobsayono.github.io/assets/bruinbot/better.png" style="width:100%">
+          </div>
+
+          <div class="mySlides1">
+            <div class="numbertext">Improved Model</div>
+              <img src="https://jacobsayono.github.io/assets/bruinbot/image1.png" style="width:100%">
+          </div>
+
+          <div class="mySlides1">
+            <div class="numbertext">Further Optimization</div>
+              <img src="https://jacobsayono.github.io/assets/bruinbot/scratchmodel_result.png" style="width:100%">
+          </div>
+
+          <div class="mySlides1">
+            <div class="numbertext">Transparent Masking</div>
+              <img src="https://jacobsayono.github.io/assets/bruinbot/img3.png" style="width:100%">
+          </div>
+          <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+          <span class="w3-badge demo1 w3-border w3-transparent w3-hover-white active w3-white" onclick="currentDiv1(1)"></span>
+          <span class="w3-badge demo1 w3-border w3-transparent w3-hover-white" onclick="currentDiv1(2)"></span>
+          <span class="w3-badge demo1 w3-border w3-transparent w3-hover-white" onclick="currentDiv1(3)"></span>
+          <span class="w3-badge demo1 w3-border w3-transparent w3-hover-white" onclick="currentDiv1(4)"></span>
+          <span class="w3-badge demo1 w3-border w3-transparent w3-hover-white" onclick="currentDiv1(5)"></span>
+          </div>
+          <!-- Next and previous buttons -->
+          <a class="prev1" onclick="plusDivs1(-1)">&#10094;</a>
+          <a class="next1" onclick="plusDivs1(1)">&#10095;</a>
+
+
+        </div>
+        </div>
+        <div class="text-container">
+          <h2>Product Manager &ensp;&&ensp; Autonomy Lead</h2><hr>
+          <ul>
+            <li>
+            BruinBot uses DeepLabV3 with PyTorch trained on CityScapes dataset to understand UCLA’s accessibility routes for autonomous navigation.
+            </li><br>
+            <li>
+            This image segmentation gives us lane boundaries where we can apply Hough Transform to create edges and propose a geometric-based steering estimator.
+            </li><br>
+            
+            <br>
+            <p style="text-align: center;"><i>- Next Steps -</i></p>
+
+            <li>
+            We optimize steering trajectories using Model Predictive Control to drive smoothly along the sidewalk given our robot position, velocity, and orientation.
+            </li><br>
+            <li>
+            We implement A* algorithm using BruinBot's GPS system and coordinate waypoints to find the most optimal path to get from its current location to its final destination.
+            </li><br>
+            <li>
+            We develop an open-source system architecture using ROS to envelop all our sensors and actuators to create a historic end-to-end product for UCLA.
+            </li><br>
+          </ul>
+        
+
+          <h2>Skills</h2><hr>
+          <p style="margin-top: 1.5rem; text-align: center;">
+          Deep Learning &ensp;|&ensp; PyTorch &ensp;|&ensp; Product Development<br><br>
+          </p>
+
+
+          <h2>Why This Project?</h2><hr>
+          <span id="dots1" style="font-size: 20px;">˙ ˙ ˙</span><br>
+          <span id="more1">
+            <p style>
+            &emsp;&emsp;
+            I want to create an autonomous product for my university before I graduate. This has been a long-term goal in my heart for a while. This is a non-profit project.
+
+            In this venture, I developed 4 teams: Mechanical, Electrical, Software, and Autonomy.
+            <br><br>
+            &emsp;&emsp;
+            Each team is given its own quarterly goals and iteration phases to progress weekly together so that no team lags behind.
+            
+            I took the challenge to lead the Autonomy team as I was unable to find another undergraduate at my university with intensive robotics autonomy experience.
+            <br><br>
+            &emsp;&emsp;
+            I inspire everyone at BruinBot to not give up as I oversee all teams as Product Manager to tie a multi-disciplinary project together. I could not have done this without my amazing team and the help from open-source projects contributed by our cherished robotics community.
+            <br><br>
+            &emsp;&emsp;
+            From your mobile app to your robot, this end-to-end product is made for UCLA, by UCLA. This project is funded out-of-pocket from personal scholarship grants and awards. I am taking a risk here because there is nothing else I'd rather do. Thank you to those who support this project.
+            <br><br>
+            </p>
+          </span>
+        <button onclick="myFunction1()" id="myBtn1" style="text-decoration: none;">Show more</button><br><br>
         </div>
       </article>
     <!--
