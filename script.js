@@ -41,10 +41,10 @@ function showDivs(n) {
     x[i].style.display = "none";  
   }
   for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" w3-dark-gray", "");
+    dots[i].className = dots[i].className.replace(" w3-gray", "");
   }
   x[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " w3-dark-gray";
+  dots[slideIndex-1].className += " w3-gray";
 }
 
 // another project gallery
