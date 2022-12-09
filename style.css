@@ -789,7 +789,7 @@ button[class="darkmode"] {
   width: auto;
   padding: 1rem;
   margin-top: 0rem;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(200, 200, 200, 0.7);
   color: black;
   font-weight: bold;
   font-size: 30px;
