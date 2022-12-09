@@ -41,10 +41,10 @@ function showDivs(n) {
     x[i].style.display = "none";  
   }
   for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" w3-gray", "");
+    dots[i].className = dots[i].className.replace(" w3-dark-gray", "");
   }
   x[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " w3-gray";
+  dots[slideIndex-1].className += " w3-dark-gray";
 }
 
 // another project gallery
@@ -70,10 +70,10 @@ function showDivs1(n) {
     x[i].style.display = "none";  
   }
   for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" w3-gray", "");
+    dots[i].className = dots[i].className.replace(" w3-white", "");
   }
   x[slideIndex1-1].style.display = "block";  
-  dots[slideIndex1-1].className += " w3-gray";
+  dots[slideIndex1-1].className += " w3-white";
 }
 
 
