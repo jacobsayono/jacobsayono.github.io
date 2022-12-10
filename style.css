@@ -296,7 +296,11 @@ header {
   margin-bottom: -5px;
 }
 
-
+@media screen and (max-width: 768px) {
+  .skills img {
+    max-width: 50px;
+  }
+}
 
 
 
@@ -876,7 +880,11 @@ button[class="darkmode"] {
   .w3-badge {display:none}
 }
 
-
+@media screen and (max-width: 768px) {
+  .prev, .next, .prev1, .next1, .numbertext {
+    display: none;
+  }
+}
 
 .row:after {
   content: "";
