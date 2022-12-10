@@ -235,6 +235,40 @@ header {
   margin: 0 auto;
 }
 
+
+
+
+
+
+
+
+
+
+.about-container {
+  width: 70%;
+}
+
+.about-container ul {
+  text-align: justify;
+}
+
+.about-container li {
+  list-style-position: outside;
+  margin-left: 1em;
+}
+
+.about-container p {
+  line-height: 1.5;
+  margin-top: 3rem;
+}
+
+.education {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
 @media screen and (max-width: 768px) {
   .card p {
     font-size: 16px;
@@ -242,7 +276,30 @@ header {
   .card ul {
     font-size: 16px;
   }
+
+  .about-container p, .about-container ul, .about-container li {
+    font-size: 14px;
+  }
+
+  .about-container h2 {
+    margin-bottom: -2rem;
+  }
+
+  .about-container {
+    width: 90%;
+  }
+
+  .about-container p {
+    line-height: 1.5;
+  }
 }
+
+
+@media screen and (max-width: 1024px) {
+  .about-container {
+    width: 90%;
+  }
+} 
 
 /* End of services------------------------ */
 
