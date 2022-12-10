@@ -651,10 +651,11 @@ footer p {
 
   .navbar__ul {
     flex-direction: row;
+    margin-right: 16rem;
   }
 
   .navbar__ul li {
-    padding: 40px 15px 15px 0px;
+    padding: 40px 15px 15px 40px;
   }
 
   .navbar__ul .link {
