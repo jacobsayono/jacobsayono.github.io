@@ -177,7 +177,6 @@ header {
 .portfolio__header {
   font-size: 2rem;
   margin-bottom: 2rem;
-  margin-top: 10rem;
 }
 
 .portfolio__container {
@@ -797,7 +796,7 @@ button[class="darkmode"] {
   width: auto;
   padding: 1rem;
   margin-top: 0rem;
-  background-color: rgba(200, 200, 200, 0.5);
+  background-color: rgba(230, 230, 230, 0.5);
   color: black;
   font-weight: bold;
   font-size: 30px;
@@ -851,7 +850,7 @@ button[class="darkmode"] {
 /* Number text (1/3 etc) */
 .numbertext {
   color: black;
-  background-color: rgb(200, 200, 200, 0.95);
+  background-color: rgb(230, 230, 230, 0.95);
   border-radius: 5%;
   padding-left: 1rem;
   padding-right: 1rem;
