@@ -486,7 +486,6 @@ footer p {
     display: flex;
     bottom: 0;
     justify-content: space-between;
-    padding-left: 1rem;
     padding-bottom: 60px;
   }
 
@@ -647,6 +646,7 @@ footer p {
   .navbar {
     flex-direction: row;
     justify-content: space-between;
+    padding-bottom: 10rem;
   }
 
   .navbar__ul {
@@ -701,7 +701,6 @@ footer p {
   }
 }
   /* End Portfolo------------------------------ */
-
 
 
 
