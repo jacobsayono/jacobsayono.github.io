@@ -150,7 +150,7 @@ header {
 /* about me text */
 .header__text {
   padding-left: 0rem; /* separation between image and about me text, 0 for phone screen bc img is above text*/
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 1000;
   line-height: 2rem;
   text-align: center;
@@ -168,12 +168,11 @@ header {
 .publication {
   width: 100%;
   display: flex;
-  align-items: start;
+  align-items: center;
   /* justify-content: left; */
   /* align-items: center; */
   flex-direction: column;
   vertical-align: text-top;
-  margin-bottom: 20px; /* Spacing between each publication entry */
 }
 
 .pub-image {
@@ -585,6 +584,12 @@ footer p {
     max-width: 85%;
   }
 
+  .publication {
+    align-items: start;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
 
   .pub__container {
     vertical-align: text-top;
@@ -920,6 +925,18 @@ button[class="darkmode"] {
 
 .darkmode button {
   color: white;
+}
+
+.darkmode .pub-details h3 {
+  color: white; /* Adjust color as needed */
+}
+
+.darkmode .pub-details p {
+  color: white; /* Adjust color as needed */
+}
+
+.darkmode a[href] {
+  color: slateblue;
 }
 
 
