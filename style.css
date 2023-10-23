@@ -36,17 +36,17 @@ body {
 
 a:link {
   text-decoration: none;
-  color: black;
+  color: slateblue;
 }
 
 a:visited {
   text-decoration: none;
-  color: black;
+  color: slateblue;
 }
 
 a:hover {
   text-decoration: none;
-  color: black;
+  color: slateblue;
 }
 
 
@@ -122,6 +122,17 @@ header {
   margin: 0 auto;
   max-width: 95%;
 }
+
+
+.pub__container {
+  display: flex;
+  vertical-align: text-top;
+  text-align: left;
+  /* justify-content: center; */
+  flex-direction: column;
+  padding-bottom: 2rem;
+  max-width: 85%;
+}
 /* pic */
 .header__container img {
   width: 50%;
@@ -144,9 +155,55 @@ header {
   line-height: 2rem;
   text-align: center;
 }
+
+.header__text__small {
+  padding-left: 0rem;
+  font-size: 14px;
+}
 /* End of Header/Navbar--------------------- */
 
 
+
+
+.publication {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  /* justify-content: left; */
+  /* align-items: center; */
+  flex-direction: column;
+  vertical-align: text-top;
+  margin-bottom: 20px; /* Spacing between each publication entry */
+}
+
+.pub-image {
+  flex-basis: 20%; /* Adjust based on your preference */
+  justify-content: center;
+}
+
+.pub-image img {
+  justify-content: center;
+  width: 100%;
+  max-width: 100px; /* Adjust as needed */
+  height: auto;
+}
+
+/* .pub-details {
+  flex-basis: 80%; /* Adjust based on your preference
+}
+*/
+
+.pub-details h3 {
+  margin: 0;
+  font-size: 14px;
+  color: #333; /* Adjust color as needed */
+}
+
+.pub-details p {
+  margin: 5px 0;
+  font-size: 13px;
+  color: #555; /* Adjust color as needed */
+}
 
 
 
@@ -176,7 +233,8 @@ header {
 /* projects header */
 .portfolio__header {
   font-size: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+  text-align: center;
 }
 
 .portfolio__container {
@@ -527,8 +585,26 @@ footer p {
     max-width: 85%;
   }
 
+
+  .pub__container {
+    vertical-align: text-top;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 100%;
+  }
+
+  .pub-image {
+    flex-basis: 20%; /* Adjust based on your preference */
+    padding-right: 20px; /* Spacing between image and details */
+  }
+
   .header__container img {
     max-width: 300px;
+  }
+
+  .header__text__container {
+    padding-top: 0rem;
+    max-width: 85%;
   }
 
   .header__text {
@@ -536,7 +612,25 @@ footer p {
     padding-left: 4rem; /* separation between image and about me text*/
     font-size: 40px;
     margin-top: 1rem;
-    line-height: 3.5rem;
+    line-height: 2rem;
+  }
+
+  .pub-details h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #333; /* Adjust color as needed */
+  }
+  
+  .pub-details p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #555; /* Adjust color as needed */
+  }
+
+
+  .header__text__small {
+    padding-left: 4rem;
+    font-size: 20px;
   }
 
   /* Portfolio section at 768----------- */
@@ -642,7 +736,7 @@ footer p {
 
 /* COMPUTER SCREEN */
 /* min width 1024 ---------------------------------- */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1300px) {
   .navbar,
   .navbar__ul,
   .header__container {
@@ -676,12 +770,38 @@ footer p {
     justify-content: center;
   }
 
+  .publication {
+    padding-left: 20rem;
+    padding-right: 20rem;
+  }
+
+  .pub__container {
+    vertical-align: text-top;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 100%;
+  }
+
+  .pub-image {
+    flex-basis: 20%; /* Adjust based on your preference */
+    padding-right: 20px; /* Spacing between image and details */
+  }
+
   .header__container img {
     max-width: 330px;
   }
 
+  .header__text__container {
+    padding-top: 0rem;
+    max-width: 50%;
+  }
+
   .header__text {
     padding-left: 5rem; /* separation between image and about me text*/
+  }
+
+  .header__text__small {
+    padding-left: 5rem;
   }
 
   /* Portfolio section------------------------- */
