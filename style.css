@@ -26,7 +26,7 @@ body {
 }
 
 .wrapper h2 {
-  font-size: 35px;
+  font-size: 20px;
 }
 
 .container {
@@ -124,15 +124,6 @@ header {
 }
 
 
-.pub__container {
-  display: flex;
-  vertical-align: text-top;
-  text-align: left;
-  /* justify-content: center; */
-  flex-direction: column;
-  padding-bottom: 2rem;
-  max-width: 85%;
-}
 /* pic */
 .header__container img {
   width: 50%;
@@ -150,8 +141,7 @@ header {
 /* about me text */
 .header__text {
   padding-left: 0rem; /* separation between image and about me text, 0 for phone screen bc img is above text*/
-  font-size: 18px;
-  font-weight: 1000;
+  font-size: 30px;
   line-height: 2rem;
   text-align: center;
 }
@@ -175,8 +165,17 @@ header {
   vertical-align: text-top;
 }
 
+.pub__container {
+  display: flex;
+  vertical-align: text-top;
+  text-align: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  padding-bottom: 2rem;
+  max-width: 100%;
+}
+
 .pub-image {
-  flex-basis: 20%; /* Adjust based on your preference */
   justify-content: center;
 }
 
@@ -196,12 +195,14 @@ header {
   margin: 0;
   font-size: 14px;
   color: #333; /* Adjust color as needed */
+  text-align: left;
 }
 
 .pub-details p {
   margin: 5px 0;
   font-size: 13px;
   color: #555; /* Adjust color as needed */
+  text-align: left;
 }
 
 
@@ -232,7 +233,7 @@ header {
 /* projects header */
 .portfolio__header {
   font-size: 2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   text-align: center;
 }
 
@@ -451,7 +452,7 @@ footer {
 
 /* contact header*/
 footer h2 {
-  font-size: 2rem;
+  font-size: 20rem;
   margin-top: 0rem;
   margin-bottom: 2rem;
 }
@@ -485,7 +486,7 @@ footer p {
 
 @media screen and (max-width: 768px) {
   .footer__text-container {
-    font-size: 16px;
+    font-size: 12px;
   }
 }
 
@@ -536,6 +537,10 @@ footer p {
 /* TABLET SCREEN */
 /* 768px */
 @media screen and (min-width: 768px) {
+
+  .wrapper h2 {
+    font-size: 30px;
+  }
   .header__container {
     min-width: 600px;
   }
@@ -568,6 +573,10 @@ footer p {
     background-color: transparent;
   }
 
+  .portfolio__header {
+    margin-bottom: 2rem;
+  }
+
 
 
 
@@ -577,17 +586,16 @@ footer p {
     padding-top: 10rem;
     padding-bottom: 16rem;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column-column;
     margin-bottom: 15px;
     align-items: center;
     justify-content: center;
-    max-width: 85%;
   }
 
   .publication {
     align-items: start;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
   }
 
 
@@ -596,6 +604,7 @@ footer p {
     flex-direction: row;
     justify-content: center;
     max-width: 100%;
+    text-align: left;
   }
 
   .pub-image {
@@ -608,13 +617,13 @@ footer p {
   }
 
   .header__text__container {
-    padding-top: 0rem;
-    max-width: 85%;
+    padding-top: 2rem;
   }
 
   .header__text {
-    text-align: left;
-    padding-left: 4rem; /* separation between image and about me text*/
+    padding-top: 2rem;
+    text-align: center;
+    padding-left: 0rem; /* separation between image and about me text*/
     font-size: 40px;
     margin-top: 1rem;
     line-height: 2rem;
@@ -747,6 +756,11 @@ footer p {
   .header__container {
     display: flex;
   }
+
+  .wrapper h2 {
+    font-size: 30px;
+  }
+
   .navbar {
     flex-direction: row;
     justify-content: space-between;
@@ -767,8 +781,8 @@ footer p {
   }
 
   .header__container {
-    padding-top: 10rem;
-    padding-bottom: 18rem;
+    padding-top: 4rem;
+    padding-bottom: 22rem;
     flex-direction: row-reverse;
     margin-bottom: 15px;
     align-items: center;
@@ -776,8 +790,8 @@ footer p {
   }
 
   .publication {
-    padding-left: 20rem;
-    padding-right: 20rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
   }
 
   .pub__container {
@@ -802,6 +816,9 @@ footer p {
   }
 
   .header__text {
+    padding-top: 0rem;
+    text-align: left;
+    font-size: 50px;
     padding-left: 5rem; /* separation between image and about me text*/
   }
 
