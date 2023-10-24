@@ -454,12 +454,14 @@ footer {
 footer h2 {
   font-size: 20rem;
   margin-top: 0rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 /* contact text */
 footer p {
   margin: 0 auto;
+  font-size: 14px;
+  margin-bottom: 1rem;
 }
 
 .footer__text-container {
@@ -701,13 +703,15 @@ footer p {
 
   footer p {
     max-width: 400px;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
+    font-size: 18px;
   }
 
   .phone,
-  .email {
+  .email,
+  .city {
     margin-right: 8px;
-    text-decoration: none;
+    font: bold;
   }
 
   .footer__nav {
