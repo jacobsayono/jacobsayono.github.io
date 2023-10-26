@@ -127,13 +127,12 @@ header {
 
 /* pic */
 .header__container img {
-  width: 50%;
-  border-radius: 50%;
+  max-width: 200px;
+  border-radius: 100%;
   filter: grayscale(100%);
   /* border: 2px solid black; */
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 5px 0px,
     rgba(0, 0, 0, 0.5) 0px 2px 15px 0px;
-  padding-top: 2rem;
 }
 
 
@@ -587,7 +586,7 @@ footer p {
 
   /* about me section */
   .header__container {
-    padding-top: 10rem;
+    padding-top: 3rem;
     padding-bottom: 16rem;
     display: flex;
     flex-direction: column-column;
@@ -647,7 +646,7 @@ footer p {
 
 
   .header__text__small {
-    padding-left: 4rem;
+    padding-left: 0rem;
     font-size: 20px;
   }
 
