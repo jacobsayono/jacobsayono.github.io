@@ -49,6 +49,24 @@ a:hover {
   color: slateblue;
 }
 
+summary {
+  display: inline-block;
+}
+
+summary:hover {
+  cursor: pointer;
+}
+
+summary::before {
+  content: '►'; /* Updated triangle */
+  display: inline-block;
+  margin-right: 0.5em;
+}
+
+details[open] summary::before {
+  content: '▼'; /* Updated triangle */
+}
+
 /* .link a[href] {
   color: slateblue;
 }
