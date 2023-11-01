@@ -1391,3 +1391,11 @@ button:hover {
 .dots, .dots1 {
   margin-top: none;
 }
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary {
+  -webkit-appearance: none;
+}
