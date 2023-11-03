@@ -1397,5 +1397,6 @@ summary::-webkit-details-marker {
 }
 
 summary {
-  -webkit-appearance: none;
+  /* -webkit-appearance: none; */
+  appearance: none;
 }
