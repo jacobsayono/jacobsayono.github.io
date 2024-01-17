@@ -1,8 +1,10 @@
+# Portfolio Website
 Copyright Ⓒ 2024
 Jacob Sayono
 
 Please contact me @jacobsayono if you would like to use my template!
 
+# Tutorial
 Clone repository:
 ```
 git clone git@github.com:jacobsayono/jacobsayono.github.io.git
