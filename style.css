@@ -551,7 +551,7 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  max-width: 70%;
+  max-width: 100%;
 }
 
 .grid__2 img {
