@@ -1,4 +1,6 @@
-Copyright Ⓒ 2024 Jacob Sayono
+Copyright Ⓒ 2024
+Jacob Sayono
+
 Please contact me @jacobsayono if you would like to use my template!
 
 Clone repository:
