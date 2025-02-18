@@ -1,5 +1,5 @@
 # Portfolio Website
-Copyright Ⓒ 2024
+Copyright Ⓒ 2025
 Jacob Sayono
 
 Please contact me @jacobsayono if you would like to use my template!
